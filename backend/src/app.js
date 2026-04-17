@@ -27,3 +27,7 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+const taskRoutes = require('./routes/task.routes');
+// letakkan setelah authRoutes
+app.use('/api/tasks', taskRoutes);

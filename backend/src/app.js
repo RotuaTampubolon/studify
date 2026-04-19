@@ -4,6 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 
 const authRoutes = require('./routes/auth.routes');
+const taskRoutes = require('./routes/task.routes');
 
 const app = express();
 
@@ -17,6 +18,7 @@ app.get('/health', (req, res) => {
 });
 
 app.use('/api/auth', authRoutes);
+app.use('/api/tasks', taskRoutes);
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
@@ -27,7 +29,3 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
-
-const taskRoutes = require('./routes/task.routes');
-// letakkan setelah authRoutes
-app.use('/api/tasks', taskRoutes);

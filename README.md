@@ -25,7 +25,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 Students today are overwhelmed — juggling multiple courses, assignments, deadlines, and personal goals without a centralized system to keep it all together.
 
@@ -35,21 +35,21 @@ Students today are overwhelmed — juggling multiple courses, assignments, deadl
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 |---|---|
-| 🔐 **Secure Authentication** | JWT-based auth with access/refresh token strategy and password hashing via bcrypt |
-| ✅ **Task Management** | Full CRUD for tasks with status tracking (`TODO`, `IN_PROGRESS`, `DONE`) and priority levels |
-| 📅 **Deadline Tracking** | Set due dates per task and get a clear view of what's urgent |
-| 📊 **Progress Dashboard** | Visual overview of task completion rates and productivity trends |
-| 🔎 **Smart Filtering** | Filter tasks by status, priority, or due date for focused workflows |
-| 🛡️ **Protected Routes** | Client-side and server-side route guards to ensure data privacy |
-| 📱 **Responsive Design** | Fully optimized for desktop, tablet, and mobile devices |
+| **Secure Authentication** | JWT-based auth with access/refresh token strategy and password hashing via bcrypt |
+| **Task Management** | Full CRUD for tasks with status tracking (`TODO`, `IN_PROGRESS`, `DONE`) and priority levels |
+| **Deadline Tracking** | Set due dates per task and get a clear view of what's urgent |
+| **Progress Dashboard** | Visual overview of task completion rates and productivity trends |
+| **Smart Filtering** | Filter tasks by status, priority, or due date for focused workflows |
+| **Protected Routes** | Client-side and server-side route guards to ensure data privacy |
+| **Responsive Design** | Fully optimized for desktop, tablet, and mobile devices |
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -80,7 +80,7 @@ Students today are overwhelmed — juggling multiple courses, assignments, deadl
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 | Technology | Purpose |
@@ -104,7 +104,7 @@ Students today are overwhelmed — juggling multiple courses, assignments, deadl
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 studify/
@@ -131,7 +131,7 @@ studify/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -209,7 +209,7 @@ npm run dev
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 ### Backend (`backend/.env`)
 
@@ -292,7 +292,7 @@ Authorization: Bearer <your_jwt_token>
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 ```prisma
 model User {
@@ -324,9 +324,9 @@ enum Priority   { LOW   MEDIUM       HIGH }
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-> 🚧 Screenshots will be added upon UI completion.
+>  Screenshots will be added upon UI completion.
 
 | Dashboard | Task Board | Login Page |
 |---|---|---|
@@ -334,7 +334,7 @@ enum Priority   { LOW   MEDIUM       HIGH }
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] JWT authentication (register & login)
 - [x] Task CRUD with status & priority
@@ -351,7 +351,7 @@ enum Priority   { LOW   MEDIUM       HIGH }
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! If you'd like to improve Studify:
 
@@ -365,7 +365,7 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 <div align="center">
 
@@ -382,7 +382,7 @@ Please follow [Conventional Commits](https://www.conventionalcommits.org/) for c
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
